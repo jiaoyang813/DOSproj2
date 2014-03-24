@@ -1,0 +1,39 @@
+1. set up Chord Server localhost 400000
+2. set up server 50000 - 50004
+3. start servicing clients
+
+CMD category I: involving files
+READLOCK
+READ
+WRITELOCK
+WRITE
+RELEASELOCK
+DELETE
+UPLOAD
+
+Cmd category II: only local operation
+SHOWDIR  //need to show on client, improve later if have time.
+BYE
+SHUTDOWN SERVER
+
+ChordNode[ID=http://192.168.1.5:50007,KEY=299494993]
+ChordNode[ID=http://192.168.1.5:50003,KEY=380906056]
+ChordNode[ID=http://192.168.1.5:50002,KEY=1639127774]
+ChordNode[ID=http://192.168.1.5:50006,KEY=1725882055]
+ChordNode[ID=http://192.168.1.5:50008,KEY=2171007936]
+ChordNode[ID=http://192.168.1.5:50004,KEY=2295381995]
+ChordNode[ID=http://192.168.1.5:50000,KEY=2411559922]
+ChordNode[ID=http://192.168.1.5:50009,KEY=4133602134]
+ChordNode[ID=http://192.168.1.5:50001,KEY=4172958564]
+ChordNode[ID=http://192.168.1.5:50005,KEY=4292317053]
+
+A, B, C, D, E
+2807998
+1200267886
+2062191582
+3368703950
+4121591422
+
+.DS_Store
+upload is not avaiable now!!!!!!!!!!
+iterate ask server,, problem is shutdown will shut other server instead of the initial one
